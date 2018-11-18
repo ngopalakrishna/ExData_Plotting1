@@ -33,6 +33,14 @@ web site</a>:
 <li><b>Sub_metering_3</b>: energy sub-metering No. 3 (in watt-hour of active energy). It corresponds to an electric water-heater and an air-conditioner.</li>
 </ol>
 
+IMPORTANT
+
+1. Keep the text file extracted at the same folder as your source code for the programs to run
+2. Set the working directory to the folder where you extracted the Code & the Text file
+3. First run the plot_Data.R code to read the data from the Text file named - household_power_consumption.txt
+This can be run using source("plot_Data.R") command
+4. After which any of the R files can be run to produce the corresponding PNG plot file.
+
 ## Loading the data
 
 
